@@ -14,7 +14,11 @@ A Node.js/Express API for managing pet service feedback submissions.
 
 ## Installation
 1. Clone the repository
-2. Install dependencies:
+```bash
+git clone https://github.com/muhnuryusri/modern_vet_backend.git
+cd modern_vet_backend
+```
+3. Install dependencies:
 ```bash
 npm install express
 ```
