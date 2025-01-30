@@ -39,7 +39,7 @@ app.post('/api/feedback', (req, res) => {
             name: trimmedName,
             petName: trimmedPetName,
             rating,
-            comments: comments ? comments.trim() : null,
+            comments: comments ? comments.trim() : "",
             timestamp: new Date().toISOString()
         };
 
